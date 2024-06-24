@@ -27,7 +27,7 @@ document.getElementById("loginbtn").addEventListener("click", function(event) {
   
 
     if (emailValue == email && passValue == password) {
-        location.href="/taskly/index.html";
+        location.href="./taskly/index.html";
     }
 else {
             let alert = document.getElementById("alert")
