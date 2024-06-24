@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+ <title>Taskly</title>
+  <link rel="icon" href="../icon.png" type="image/icon type">  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h1>Taskly</h1>
+    <div class="boards">
+      <h2>All Boards (3)</h2>
+      <ul>
+        <li data-board="Platform Launch">Platform Launch</li>
+        <li data-board="Marketing Plan">Marketing Plan</li>
+        <li data-board="Roadmap">Roadmap</li>
+      </ul>
+    </div>
+    <button id="theme-toggle" class="theme-toggle">
+      <i class="fas fa-sun"></i>
+    </button>
+  </div>
+  <div class="main">
+    <header>
+      <button id="sidebar-toggle" class="sidebar-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <h2>Kanban Card</h2>
+     <a href="add/index.html" target="_parent"><button class="add-task">+ Add New Task</button></a> 
+    </header>
+    <div id="kanban-container" class="kanban-container"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
