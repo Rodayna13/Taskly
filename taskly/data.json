@@ -1,0 +1,116 @@
+{
+     "categories": [
+       {
+         "title": "Personal",
+         "img": "boss.png"
+       },
+       {
+         "title": "Work",
+         "img": "suitcase.png"
+       },
+       {
+         "title": "Shopping",
+         "img": "shopping-cart.png"
+       },
+       {
+         "title": "Coding",
+         "img": "programming.png"
+       },
+       {
+         "title": "Health",
+         "img": "better-health.png"
+       },
+       {
+         "title": "Fitness",
+         "img": "weightlifting.png"
+       },
+       {
+         "title": "Education",
+         "img": "reading.png"
+       },
+       {
+         "title": "Finance",
+         "img": "salary.png"
+       }
+     ],
+     "tasks": [
+       {
+         "id": 1,
+         "task": "Schedule a dentist appointment for next Monday",
+         "category": "Personal",
+         "completed": false,
+         "end_date": "2024-06-28"
+       },
+       {
+         "id": 2,
+         "task": "Buy groceries for the week including fresh vegetables",
+         "category": "Personal",
+         "completed": false,
+         "end_date": "2024-06-21"
+       },
+       {
+         "id": 3,
+         "task": "Pay the electricity bill online before Friday",
+         "category": "Personal",
+         "completed": false,
+         "end_date": "2024-06-25"
+       },
+       {
+         "id": 4,
+         "task": "Read two chapters of the new novel tonight",
+         "category": "Personal",
+         "completed": false,
+         "end_date": "2024-06-21"
+       },
+       {
+         "id": 5,
+         "task": "Schedule annual health checkup",
+         "category": "Health",
+         "completed": false,
+         "end_date": "2024-07-15"
+       },
+       {
+         "id": 6,
+         "task": "Start a daily jogging routine",
+         "category": "Health",
+         "completed": false,
+         "end_date": "2024-06-30"
+       },
+       {
+         "id": 7,
+         "task": "Try a new healthy recipe this weekend",
+         "category": "Health",
+         "completed": false,
+         "end_date": "2024-06-25"
+       },
+       {
+         "id": 8,
+         "task": "Finish coding project milestone 1",
+         "category": "Coding",
+         "completed": false,
+         "end_date": "2024-07-05"
+       },
+       {
+         "id": 9,
+         "task": "Learn about advanced algorithms",
+         "category": "Coding",
+         "completed": false,
+         "end_date": "2024-06-30"
+       },
+       {
+         "id": 10,
+         "task": "Debug and fix issue #23 in the application",
+         "category": "Coding",
+         "completed": false,
+         "end_date": "2024-06-23"
+       },
+       {
+         "id": 11,
+         "task": "Attend coding workshop on React.js",
+         "category": "Coding",
+         "completed": false,
+         "end_date": "2024-06-28"
+       }
+     ]
+   }
+   
