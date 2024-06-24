@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskly</title>
+    <link rel="icon" href="./taskly/icon.png" type="image/icon type">
+      <link rel="stylesheet" href="style.css">
+     
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="Sign_in.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+<div class="row">
+    <div class="maindiv col-10">
+        <form action="" id="form">
+            <div class="d-flex justify-content-center">
+                <img width="50 " src="logo (2).png" alt="logo" id="logo">
+            </div><h1 class="">Sign in</h1>
+            
+            <div class="input-box">
+                <input type="text" placeholder="Email" required id="email-input">
+                <i class='bx bxs-user'></i>
+            </div>
+           
+            <div class="input-box">
+                <input type="password" placeholder="Password" required id="pass">
+                <i class='bx bxs-lock-alt' ></i>                
+            </div>
+
+            <div class="alert alert-danger " role="alert" id="alert">
+                <p></p>
+              </div>
+    
+            <button class="btn btn-primary" type="submit" id="loginbtn">Sign in</button>
+            
+            <div class="register-link">
+                <p>Don't have an account
+                    <a href="./sign_up.html" id="regist-link">
+                    Register</a>
+                  </p>
+            </div>
+          
+          
+        </form>
+    </div>
+
+    
+</div>
+</div>
+
+    
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

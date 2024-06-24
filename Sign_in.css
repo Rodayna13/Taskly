@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height:100vh ;
+    background-image: url(login-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maindiv
+{
+    align-items: center;
+    width: 400px;
+    background:transparent;
+    border: 2px solid;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+}
+.maindiv h1{
+     font-size: 35px;
+     text-align: center;
+}
+.maindiv .input-box{
+    position: relative;
+    width: 98%;
+    height: 40px;
+    margin: 30px 0;
+}
+.input-box input
+{
+    width: 98%;    
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;/*On select and writing input no border is displayed */
+    border: 2px solid rgb(255, 255, 255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 0px 0px 0px 13px;
+}
+::placeholder
+{
+    color:white ;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top :50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+.maindiv .btn
+{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn.scaled-down {
+    transform: scale(0.9);
+}
+.maindiv .register-link
+{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link a {
+    color: #83a0ff;
+    text-decoration: none;
+    font-weight: 600;
+font-size: 18px;
+    
+}
+.register-link p a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+.display-block
+{
+        display: block;
+}
+
+#alert
+{
+    height: 50px ;
+    display: none;
+    color: rgb(216, 2, 2);
+}
