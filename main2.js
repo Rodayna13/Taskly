@@ -30,7 +30,7 @@ document.getElementById("signUpbtn").addEventListener("click", function(event) {
         }
     } else {
         storeData();
-        window.location.href = "Sign_in.html";
+        window.location.href = "index.html";
     }
     
 });
