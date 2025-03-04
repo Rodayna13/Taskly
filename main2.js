@@ -6,9 +6,9 @@ document.getElementById("signUpbtn").addEventListener("click", function(event) {
     const emailValue = emailInput.value;
     const fullNameInput = document.getElementById("name-input");
     const fullNameValue = fullNameInput.value;
-   const fullNameRegX = /^[A-Za-z]+ [A-Za-z]+$;
-    const emailRegX = /^[a-zA-Z0-9]{3,}@(gmail|yahoo|outlook)\.com$;
-    const passRegx = /^.{4,}$;
+   const fullNameRegX = /^[A-Za-z]+ [A-Za-z]+$/;
+    const emailRegX = /^[a-zA-Z0-9]{3,}@(gmail|yahoo|outlook)\.com$/;
+    const passRegx = /^.{4,}$/;
     const passInput = document.getElementById("pass");
     const passValue = passInput.value;
     
